@@ -1,0 +1,22 @@
+{
+  "name": "storage",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Michał Pacholski <pacholskimichal@gmail.com>",
+  "homepage": "https://github.com/mpacholski/alfred#readme",
+  "license": "ISC",
+  "main": "lib/storage.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpacholski/alfred.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mpacholski/alfred/issues"
+  }
+}

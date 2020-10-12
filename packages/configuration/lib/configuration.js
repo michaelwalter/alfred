@@ -3,5 +3,6 @@
 module.exports = configuration;
 
 function configuration() {
-    // TODO
+    const i = 100,
+        j = 5;
 }
