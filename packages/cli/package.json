@@ -1,0 +1,36 @@
+{
+  "name": "@alfred/cli",
+  "version": "0.0.0",
+  "description": "Command-Line Interface",
+  "keywords": [
+    "cli",
+    "CLI"
+  ],
+  "author": "Michał Pacholski <pacholskimichal@gmail.com>",
+  "homepage": "https://github.com/mpacholski/alfred#readme",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "bin": {
+    "alfred": "lib/cli.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpacholski/alfred.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mpacholski/alfred/issues"
+  },
+  "dependencies": {
+    "yargs": "^16.0.3"
+  }
+}
