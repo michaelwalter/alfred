@@ -1,5 +1,5 @@
 {
-  "name": "@frontcode/cli",
+  "name": "@alfred/cli",
   "version": "1.0.7",
   "description": "Command-Line Interface",
   "keywords": [
@@ -11,7 +11,7 @@
   "license": "ISC",
   "main": "lib/cli.js",
   "bin": {
-    "frontcode-cli": "lib/cli.js"
+    "alfred-cli": "lib/cli.js"
   },
   "directories": {
     "lib": "lib",
@@ -36,5 +36,5 @@
   "dependencies": {
     "yargs": "^16.0.3"
   },
-  "gitHead": "0b89c24dea4efc3fa33f87d088d18d72c9820e53"
+  "gitHead": "25f9e18bdd2d45c392fcd664bc6a7b2e4deb6cf2"
 }
