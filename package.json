@@ -5,11 +5,14 @@
     "workspaces": [
         "packages/*"
     ],
-    "devDependencies": {
-        "lerna": "^3.22.1"
+    "publishConfig": {
+        "access": "public"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mpacholski/alfred.git"
+    },
+    "devDependencies": {
+        "lerna": "^3.22.1"
     }
 }

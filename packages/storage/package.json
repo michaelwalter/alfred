@@ -9,6 +9,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mpacholski/alfred.git"
@@ -18,5 +21,6 @@
   },
   "bugs": {
     "url": "https://github.com/mpacholski/alfred/issues"
-  }
+  },
+  "gitHead": "93b2d01f05dcd4270a262d627753906530bc4350"
 }
