@@ -11,7 +11,7 @@
   "license": "ISC",
   "main": "lib/cli.js",
   "bin": {
-    "alfred-cli": "lib/cli.js"
+    "frontcode-cli": "lib/cli.js"
   },
   "directories": {
     "lib": "lib",
