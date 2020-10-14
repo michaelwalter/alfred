@@ -1,5 +1,5 @@
 {
-    "name": "configuration",
+    "name": "@alfred/configuration",
     "version": "0.0.0",
     "description": "Configurations",
     "keywords": [

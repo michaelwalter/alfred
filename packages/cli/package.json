@@ -11,7 +11,7 @@
   "license": "ISC",
   "main": "lib/cli.js",
   "bin": {
-    "alfred": "lib/cli.js"
+    "alfred-cli": "lib/cli.js"
   },
   "directories": {
     "lib": "lib",

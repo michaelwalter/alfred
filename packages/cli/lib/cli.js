@@ -1,5 +1,7 @@
 #! /usr/bin/env node
 const yargs = require("yargs");
+const path = require("path");
+const logger = require("./logger");
 
 const options = yargs
     .usage("Usage: <start>")
@@ -10,7 +12,8 @@ const options = yargs
     .argv;
 
 if (options['_'].includes('start')) {
-    console.log("Running application...")
+    const config = require(path.resolve('./config'))
+    logger("Running application...", config.name);
 } else {
-    console.log('Command not found :(');
+    logger('Command not found :(');
 }
