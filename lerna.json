@@ -2,12 +2,17 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.9",
+  "version": "1.0.10-alf-1.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
     "version": {
-      "allowBranch": ["master", "main", "feature/*", "ALF*"]
+      "allowBranch": [
+        "master",
+        "main",
+        "feature/*",
+        "ALF*"
+      ]
     },
     "publish": {
       "registry": "https://frontcode.bytesafe.dev/r/alfred"
