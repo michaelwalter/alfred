@@ -9,7 +9,7 @@
         "type": "git",
         "url": "git+https://github.com/mpacholski/alfred.git"
     },
-    "devDependencies": {
+    "dependencies": {
         "lerna": "^3.22.1"
     },
     "scripts": {
