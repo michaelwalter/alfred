@@ -1,6 +1,6 @@
 {
   "name": "@alfred/cli",
-  "version": "1.0.10-alf-1.0",
+  "version": "1.0.11-alf-1.0",
   "description": "Command-Line Interface",
   "keywords": [
     "cli",
@@ -34,8 +34,8 @@
     "url": "https://github.com/mpacholski/alfred/issues"
   },
   "dependencies": {
-    "yargs": "^16.0.3",
-    "@alfred/commons": "^1.0.8"
+    "@alfred/commons": "^1.0.8",
+    "yargs": "^16.0.3"
   },
   "gitHead": "25f9e18bdd2d45c392fcd664bc6a7b2e4deb6cf2"
 }
