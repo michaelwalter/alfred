@@ -6,6 +6,9 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
+    "version": {
+      "allowBranch": ["master", "main", "feature/*", "ALF*"]
+    },
     "publish": {
       "registry": "https://frontcode.bytesafe.dev/r/alfred"
     }
