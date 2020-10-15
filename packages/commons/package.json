@@ -5,14 +5,7 @@
   "author": "Michał Pacholski <pacholskimichal@gmail.com>",
   "homepage": "https://github.com/mpacholski/alfred#readme",
   "license": "ISC",
-  "main": "lib/commons.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "main": "helpers/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mpacholski/alfred.git"
