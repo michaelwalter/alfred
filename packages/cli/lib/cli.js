@@ -13,7 +13,7 @@ const options = yargs
 
 if (options['_'].includes('start')) {
     const config = require(path.resolve('./config'))
-    helpers.logger("[ALF-1] Running application...", config.name);
+    helpers.logger("[ALF-1] Running application ;)", config.name);
 } else {
     helpers.logger('[ALF-1] Command not found :(');
 }
